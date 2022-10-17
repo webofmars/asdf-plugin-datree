@@ -83,14 +83,17 @@ get_arch() {
   arch="$(uname -m)"
 
   case "$arch" in
+  386 | i386 | i686)
+    echo "386"
+    ;;
   x86_64)
-    echo "amd64"
+    echo "x86_64"
     ;;
   armv6l)
-    echo "armv6"
+    fail "Unsupported architecture: $arch"
     ;;
   armv7l)
-    echo "armv7"
+    fail "Unsupported architecture: $arch"
     ;;
   aarch64)
     echo "arm64"
