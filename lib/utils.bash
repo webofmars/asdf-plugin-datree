@@ -107,10 +107,13 @@ get_os() {
 
   case "$os" in
   Linux)
-    echo "linux"
+    echo "Linux"
     ;;
   Darwin)
-    echo "darwin"
+    echo "Darwin"
+    ;;
+  Windows)
+    fail "Windows is not supported yet. Use chocolatey instead."
     ;;
   *)
     fail "Unsupported operating system: $os"
