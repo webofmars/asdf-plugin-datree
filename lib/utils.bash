@@ -95,7 +95,7 @@ get_arch() {
   armv7l)
     fail "Unsupported architecture: $arch"
     ;;
-  aarch64)
+  aarch64 | arm64)
     echo "arm64"
     ;;
   *)
