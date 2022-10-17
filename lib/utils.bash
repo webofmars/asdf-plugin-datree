@@ -37,11 +37,11 @@ list_all_versions() {
 }
 
 download_release() {
-  local version filename url
+  local version filename url os arch
   version="$1"
   filename="$2"
-  os=get_os
-  arch=get_arch
+  os="$(get_os)"
+  arch="$(get_arch)"
 
   # TODO: Adapt the release URL convention for datree
   #  datree-cli_1.6.37_Darwin_arm64.zip
