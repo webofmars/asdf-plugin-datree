@@ -1,5 +1,13 @@
 # Changelog
 
+### [1.0.1](https://www.github.com/webofmars/asdf-plugin-datree/compare/v1.0.0...v1.0.1) (2022-10-17)
+
+
+### Bug Fixes
+
+* mac m1 errors ([27fc0e1](https://www.github.com/webofmars/asdf-plugin-datree/commit/27fc0e1b2308930bf39c70b034d01fb58a5862d0))
+* remove debug flag ([819c56b](https://www.github.com/webofmars/asdf-plugin-datree/commit/819c56b40adecb07e1d67c070f318656509bbbed))
+
 ## 1.0.0 (2022-10-17)
 
 
