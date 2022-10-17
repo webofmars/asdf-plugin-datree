@@ -18,10 +18,10 @@ download_release "$ASDF_INSTALL_VERSION" "$release_file"
 
 #  Extract contents of tar.gz file into the download directory
 (
-  export PREV_DIR="$(pwd)"
-  cd unzip "$ASDF_DOWNLOAD_PATH"
+  set -x
+  cd "$ASDF_DOWNLOAD_PATH"
   unzip "$release_file"
-  cd "$PREV_DIR"
+  cd -
 ) || fail "Could not extract $release_file"
 
 # Remove the tar.gz file since we don't need to keep it
