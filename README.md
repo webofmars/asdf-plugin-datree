@@ -1,4 +1,4 @@
-# asdf-plugin-datree [![Build](https://github.com/asdf-vm/asdf-plugin-datree/actions/workflows/build.yml/badge.svg)](https://github.com/asdf-vm/asdf-plugin-datree/actions/workflows/build.yml) [![Lint](https://github.com/asdf-vm/asdf-plugin-datree/actions/workflows/lint.yml/badge.svg)](https://github.com/asdf-vm/asdf-plugin-datree/actions/workflows/lint.yml)
+# asdf-plugin-datree [![Build](https://github.com/webofmars/asdf-plugin-datree/actions/workflows/build.yml/badge.svg)](https://github.com/webofmars/asdf-plugin-datree/actions/workflows/build.yml) [![Lint](https://github.com/webofmars/asdf-plugin-datree/actions/workflows/lint.yml/badge.svg)](https://github.com/webofmars/asdf-plugin-datree/actions/workflows/lint.yml)
 
 ## Usage
 
