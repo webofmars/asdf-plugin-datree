@@ -18,7 +18,6 @@ download_release "$ASDF_INSTALL_VERSION" "$release_file"
 
 #  Extract contents of tar.gz file into the download directory
 (
-  set -x
   cd "$ASDF_DOWNLOAD_PATH"
   unzip "$release_file"
   cd -
