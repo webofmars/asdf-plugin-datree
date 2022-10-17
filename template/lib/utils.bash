@@ -83,21 +83,21 @@ get_arch() {
   arch="$(uname -m)"
 
   case "$arch" in
-    x86_64)
-      echo "amd64"
-      ;;
-    armv6l)
-      echo "armv6"
-      ;;
-    armv7l)
-      echo "armv7"
-      ;;
-    aarch64)
-      echo "arm64"
-      ;;
-    *)
-      fail "Unsupported architecture: $arch"
-      ;;
+  x86_64)
+    echo "amd64"
+    ;;
+  armv6l)
+    echo "armv6"
+    ;;
+  armv7l)
+    echo "armv7"
+    ;;
+  aarch64)
+    echo "arm64"
+    ;;
+  *)
+    fail "Unsupported architecture: $arch"
+    ;;
   esac
 }
 
@@ -106,14 +106,14 @@ get_os() {
   os="$(uname -s)"
 
   case "$os" in
-    Linux)
-      echo "linux"
-      ;;
-    Darwin)
-      echo "darwin"
-      ;;
-    *)
-      fail "Unsupported operating system: $os"
-      ;;
+  Linux)
+    echo "linux"
+    ;;
+  Darwin)
+    echo "darwin"
+    ;;
+  *)
+    fail "Unsupported operating system: $os"
+    ;;
   esac
 }
